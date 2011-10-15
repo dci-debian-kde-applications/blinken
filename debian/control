@@ -1,0 +1,30 @@
+Source: blinken
+Section: kde
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Harald Sitter <apachelogger@ubuntu.com>
+Build-Depends: kde-sc-dev-latest (>= 4:4.7.1),
+ cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
+ kdelibs5-dev (>= 4.7)
+Standards-Version: 3.9.2
+Homepage: http://edu.kde.org/applications/all/blinken
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/blinken/ubuntu
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/blinken/ubuntu
+
+Package: blinken
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ttf-sjfonts
+Section: misc
+Suggests: khelpcenter4
+Description: KDE version of the Simon electronic memory game
+ Blinken is based on an electronic game released in 1978, which
+ challenges players to remember sequences of increasing length.  On
+ the face of the device, there are 4 different color buttons, each
+ with its own distinctive sound.  These buttons light up randomly,
+ creating the sequence that the player must then recall.  If the
+ player is successful in remembering the sequence of lights in the
+ correct order, they advance to the next stage, where an identical
+ sequence with one extra step is presented.
+ .
+ This package is part of the KDE education module.
+

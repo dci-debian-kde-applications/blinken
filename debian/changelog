@@ -1,0 +1,26 @@
+blinken (4:4.7.1-0ubuntu2) oneiric; urgency=low
+
+  * No-change rebuild so translations aren't stripped from .desktop
+    files anymore.
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Thu, 15 Sep 2011 22:51:51 +0200
+
+blinken (4:4.7.1-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Kolberg <bulldog98@kubuntu-de.org>  Fri, 09 Sep 2011 00:35:32 -0400
+
+blinken (4:4.7.0-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Sat, 23 Jul 2011 13:38:45 +0200
+
+blinken (4:4.6.90+repack-0ubuntu1) oneiric; urgency=low
+
+  * Initial release (based of kdeedu)
+  * Repack tarball to include copies of GPL2 and GFDL1.2
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Sun, 26 Jun 2011 13:22:35 +0200
+
