@@ -1,0 +1,5 @@
+# Shipped in ttf-sjfonts
+./usr/share/kde4/apps/blinken/fonts/steve.ttf
+
+# Describing the handling of the "steve" font
+./usr/share/kde4/apps/blinken/README.packagers
