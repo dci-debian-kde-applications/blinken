@@ -1,5 +1,7 @@
 blinken (4:4.7.4-3) UNRELEASED; urgency=low
 
+  [ Felix Geyer ]
+  * debian/copyright: Fix missing license paragraph.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 16:22:39 +0100
 
