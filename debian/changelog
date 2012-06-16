@@ -1,4 +1,6 @@
-blinken (4:4.7.4-3) UNRELEASED; urgency=low
+blinken (4:4.8.4-0r0) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   [ Felix Geyer ]
   * debian/copyright:
