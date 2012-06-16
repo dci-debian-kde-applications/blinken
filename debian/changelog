@@ -7,7 +7,10 @@ blinken (4:4.8.4-0r0) UNRELEASED; urgency=low
     - Fix missing license paragraph.
     - Update Format url.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 16:22:39 +0100
+  [ Eshat Cakar ]
+  * Add myself to Uploaders.
+
+ -- Eshat Cakar <info@eshat.de>  Sun, 17 Jun 2012 01:20:28 +0200
 
 blinken (4:4.7.4-2) unstable; urgency=low
 
