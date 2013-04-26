@@ -15,7 +15,7 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/blinken.git
 Package: blinken
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ttf-sjfonts
-Section: misc
+Section: games
 Suggests: khelpcenter4
 Description: KDE version of the Simon electronic memory game
  Blinken is based on an electronic game released in 1978, which
