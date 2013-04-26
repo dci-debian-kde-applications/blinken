@@ -1,7 +1,18 @@
-blinken (4:4.10.2-2) UNRELEASED; urgency=low
+blinken (4:4.10.2-2) experimental; urgency=low
 
   [ Pino Toscano ]
   * Add missing epoch in the version of the kdelibs5-dev build dependency.
+
+  [ Maximiliano Curia ]
+  * Update copyright file.
+  * Change section to games.
+  * Add menu file and icons.
+  * Install games in /usr/games.
+  * Disable build tests.
+  * Add a basic manpage.
+  * Bump to debhelper 9.
+  * Update Uploaders.
+  * Bump Standards-Version to 3.9.4, no further changes.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 09 Apr 2013 14:02:43 +0200
 
