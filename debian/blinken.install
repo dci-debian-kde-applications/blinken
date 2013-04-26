@@ -1,3 +1,5 @@
+../icons/blinken-16.xpm /usr/share/pixmaps
+../icons/blinken.xpm /usr/share/pixmaps
 usr/games/blinken
 usr/share/applications/kde4/blinken.desktop
 usr/share/doc/kde/HTML/en/blinken/
