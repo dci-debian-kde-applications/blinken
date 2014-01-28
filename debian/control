@@ -3,11 +3,13 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>,
- Eshat Cakar <info@eshat.de>,
- Maximiliano Curia <maxy@debian.org>
-Build-Depends: kdelibs5-dev (>= 4:4.11),
- kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.14),
+           Eshat Cakar <info@eshat.de>,
+           Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               pkg-kde-tools (>= 0.14)
 Standards-Version: 3.9.5
 Homepage: http://edu.kde.org/applications/all/blinken
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/blinken.git
@@ -15,7 +17,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/blinken.git
 
 Package: blinken
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ttf-sjfonts
+Depends: ttf-sjfonts, ${misc:Depends}, ${shlibs:Depends}
 Section: games
 Suggests: khelpcenter4
 Description: KDE version of the Simon electronic memory game
@@ -29,4 +31,3 @@ Description: KDE version of the Simon electronic memory game
  sequence with one extra step is presented.
  .
  This package is part of the KDE education module.
-
