@@ -3,6 +3,7 @@ blinken (4:14.11.95-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream beta release
   * Fix watch urls for new release location
   * Update Vcs urls for the new repository location
+  * Suggest khelpcenter instead of khelpcenter4
 
  -- Philip Muškovac <yofel@kubuntu.org>  Fri, 21 Nov 2014 22:38:48 +0100
 
