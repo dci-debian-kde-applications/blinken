@@ -1,10 +1,10 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: Blinken
+Upstream-Name: blinken
 Upstream-Contact: kde-edu@kde.org,
                   Albert Astals Cid <aacid@kde.org>,
                   Ian Monroe <ian.monroe@gmail.com>,
                   Jeremy Paul Whiting <jpwhiting@kde.org>
-Source: http://www.kde.org/download/
+Source: git://anongit.kde.org/blinken
 Comment: This package was developed for Ubuntu by the Kubuntu Developers and
  modified to be included in Debian. See below the copyright holders for debian/*
  files.
@@ -41,9 +41,8 @@ License: GPL
  version of the font, but you are not obligated to do so. If you do not wish
  to do so, delete this exception statement from your version.
  .
- On Debian systems, the full text of the GNU General Public
- License can be found in the file
- `/usr/share/common-licenses/GPL'.
+ On Debian systems, the full text of the GNU General Public License can be
+ found in the file `/usr/share/common-licenses/GPL'.
 
 Files: debian/*
 Copyright: 2011, Harald Sitter <apachelogger@ubuntu.com>
@@ -67,6 +66,5 @@ License: GPL-2+
  Software Foundation, Inc., 51 Franklin St, Fifth Floor,
  Boston, MA  02110-1301 USA
  .
- On Debian systems, the full text of the GNU General Public
- License version 2 can be found in the file
- `/usr/share/common-licenses/GPL-2'.
+ On Debian systems, the full text of the GNU General Public License version 2
+ can be found in the file `/usr/share/common-licenses/GPL-2'.
