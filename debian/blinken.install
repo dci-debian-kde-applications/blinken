@@ -2,15 +2,9 @@
 ../icons/blinken.xpm /usr/share/pixmaps
 usr/games/blinken
 usr/share/appdata/blinken.appdata.xml
-usr/share/applications/kde4/blinken.desktop
-usr/share/doc/kde/HTML/en/blinken/
-usr/share/icons/hicolor/128x128/apps/blinken.png
-usr/share/icons/hicolor/16x16/apps/blinken.png
-usr/share/icons/hicolor/22x22/apps/blinken.png
-usr/share/icons/hicolor/32x32/apps/blinken.png
-usr/share/icons/hicolor/48x48/apps/blinken.png
-usr/share/icons/hicolor/64x64/apps/blinken.png
-usr/share/icons/hicolor/scalable/apps/blinken.svgz
-usr/share/kde4/apps/blinken/images/
-usr/share/kde4/apps/blinken/sounds/
-usr/share/kde4/config.kcfg/blinken.kcfg
+usr/share/applications/org.kde.blinken.desktop
+usr/share/doc/*
+usr/share/icons/*
+usr/share/blinken/images/
+usr/share/blinken/sounds/
+usr/share/config.kcfg/*
