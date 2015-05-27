@@ -13,6 +13,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5guiaddons-dev,
                libkf5i18n-dev,
                libkf5xmlgui-dev,
+               libphonon4qt5-dev,
                libqt5svg5-dev (>= 5.4),
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.4)
