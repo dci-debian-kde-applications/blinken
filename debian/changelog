@@ -3,7 +3,6 @@ blinken (4:16.04.1-1~1.gbpee6e29) UNRELEASED; urgency=medium
   ** SNAPSHOT build @ee6e292f0b01ace9d23121dc643e4dafb4746a2b **
 
   [ Maximiliano Curia ]
-  * 
   * Avoid installing the steve font. (Closes: #813449)
 
   [ Automatic packaging ]
