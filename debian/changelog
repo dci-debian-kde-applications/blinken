@@ -1,6 +1,6 @@
-blinken (4:15.12.3-1~1.gbpe07ab4) UNRELEASED; urgency=medium
+blinken (4:16.04.0-1~1.gbp635abf) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @e07ab42c257959cec8408ba16fadae2f9826d80a **
+  ** SNAPSHOT build @635abf4c59f1fa6fd166236a716564f8fb6b7c6c **
 
   [ Maximiliano Curia ]
   * 
@@ -8,8 +8,9 @@ blinken (4:15.12.3-1~1.gbpe07ab4) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:08:55 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 01:08:23 +0200
 
 blinken (4:15.12.0-1) experimental; urgency=medium
 
