@@ -1,11 +1,9 @@
-blinken (4:16.04.1-2~1.gbpf533d3) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @f533d32f5b20da3ab0f5f35cc412a61b322bc1f9 **
+blinken (4:16.04.1-2) unstable; urgency=medium
 
   * Really remove the steve font.
     Thanks to Carlo Stemberger for checking (Closes: #813449)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 23 May 2016 15:08:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 25 May 2016 11:22:12 +0200
 
 blinken (4:16.04.1-1) unstable; urgency=medium
 
