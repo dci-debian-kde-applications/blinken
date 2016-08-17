@@ -1,7 +1,7 @@
 usr/games/blinken
+usr/share/*/blinken.appdata.xml
 usr/share/applications/org.kde.blinken.desktop
 usr/share/blinken/
 usr/share/config.kcfg/blinken.kcfg
 usr/share/doc/HTML/*/blinken/
 usr/share/icons/hicolor/*/apps/blinken.*
-usr/share/metainfo/blinken.appdata.xml
