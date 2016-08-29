@@ -6,5 +6,8 @@ override_dh_auto_configure:
 	$(overridden_command) -- -DBIN_INSTALL_DIR=/usr/games
 
 override_dh_auto_install:
-	$(overridden_command) --destdir=debian/tmp
-	-rm -rf debian/tmp/usr/share/blinken/fonts/
+	$(overridden_command)
+	# Shipped in ttf-sjfonts
+	rm -rv debian/blinken/usr/share/blinken/fonts/
+	# Describing the handling of the "steve" font
+	rm -v debian/blinken/usr/share/blinken/README.packagers
