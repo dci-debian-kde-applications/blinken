@@ -8,6 +8,7 @@ blinken (4:16.08.0-0r1) UNRELEASED; urgency=medium
       not needed
     - remove blinken.install, no more used now
     - remove not-installed file, no more useful now
+  * Change the watch file to look for stable releases only.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Aug 2016 19:52:05 +0200
 
