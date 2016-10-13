@@ -1,3 +1,11 @@
+blinken (4:16.08.2-1~1.gbpc952b8) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @c952b8ddc5729e201530d3b4e9c70d8303c6edd0 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 19:08:34 +0200
+
 blinken (4:16.08.0-1) unstable; urgency=medium
 
   * Team upload.
