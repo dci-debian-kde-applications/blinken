@@ -30,6 +30,8 @@ Architecture: any
 Depends: ttf-sjfonts, ${misc:Depends}, ${shlibs:Depends}
 Section: games
 Suggests: khelpcenter
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: KDE version of the Simon electronic memory game
  Blinken is based on an electronic game released in 1978, which
  challenges players to remember sequences of increasing length.  On
