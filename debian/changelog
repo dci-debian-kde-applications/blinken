@@ -5,6 +5,7 @@ blinken (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Simplify watch file, and switch it to https.
   * Bump Standards-Version to 4.1.1, no changes required.
   * Since translations moved here, handle the migration from kde-l10n.
+  * Remove the unused transitional kdoctools-dev build dependency.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 19 Nov 2017 14:01:07 +0100
 
