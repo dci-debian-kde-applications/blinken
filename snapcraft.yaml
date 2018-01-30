@@ -1,0 +1,58 @@
+---
+name: blinken
+version: 17.08.1
+summary: A memory enhancement game
+description: Blinken is based on an electronic game released in 1978, which challenges
+    players to remember sequences of increasing length. On the face of the device,
+    there are 4 different color buttons, each one with their own distinctive sound.
+    These buttons light up randomly, creating the sequence that the player must then
+    recall. If the player is successful in remembering the sequence of lights in the
+    correct order, they advance to the next stage, where an identical sequence with
+    one extra step is presented. If they are incorrect, the game is lost, and the
+    player must start again from the beginning. The goal is to get a high score -
+    each step in the sequence is worth one point, so correct entry of a sequence of
+    8 lights is worth 8 points on the high score table.
+confinement: strict
+grade: stable
+apps:
+    blinken:
+        command: kf5-launch blinken
+        plugs:
+        - kde-frameworks-5-plug
+        - home
+        - x11
+        - opengl
+        - network
+        - network-bind
+        - unity7
+        - pulseaudio
+slots:
+    session-dbus-interface:
+        interface: dbus
+        name: org.kde.blinken
+        bus: session
+plugs:
+    kde-frameworks-5-plug:
+        content: kde-frameworks-5-all
+        interface: content
+        default-provider: kde-frameworks-5
+        target: kf5
+parts:
+    blinken:
+        after:
+        - kde-frameworks-5-dev
+        - kde-frameworks-5-env
+        plugin: cmake
+        build-packages:
+        - kdoctools-dev
+        - libphonon4qt5-dev
+        - libphonon4qt5experimental-dev
+        - libpulse0
+        source: https://download.kde.org/stable/applications/17.08.1/src/blinken-17.08.1.tar.xz
+        configflags:
+        - "-DKDE_INSTALL_USE_QT_SYS_PATHS=ON"
+        - "-DCMAKE_INSTALL_PREFIX=/usr"
+        - "-DCMAKE_BUILD_TYPE=Release"
+        - "-DENABLE_TESTING=OFF"
+        - "-DBUILD_TESTING=OFF"
+        - "-DKDE_SKIP_TEST_SETTINGS=ON"
